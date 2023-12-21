@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO('C:\\Users\\josse\\OneDrive\\Escritorio\\proyecto-tesis\\runs\\detect\\Yolov5mu-libreocupado 100\\weights\\best.pt')  # Actualiza con la ruta de tu modelo
+model = YOLO('best.pt')
 
 cap = cv2.VideoCapture('prueba2.mp4')
 

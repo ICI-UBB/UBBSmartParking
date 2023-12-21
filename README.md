@@ -29,7 +29,7 @@
     luego ejecutar el comando flutter create .
 
     click derecho en best.pt seleccionar la opción "copy path"
-    en el archivo parking_space_detector.py copiar el path de best.pt deberia quedar de la siguiente forma: model = YOLO('C:\\Users\\josse\\Documents\\GitHub\\UBBSmartParking\\best.pt')
+    en el archivo parking_space_detector.py en la linea 10 copiar el path de best.pt deberia quedar de la siguiente forma: model = YOLO('C:\\Users\\josse\\Documents\\GitHub\\UBBSmartParking\\best.pt'), lo mismo para el archivo modelo.py en la línea 4 
 
     cada una de los siguientes comandos se deben ejecutar en terminales distintas:
     ejecutar api(carpeta raíz): -uvicorn main:app --reload
@@ -37,4 +37,4 @@
     finalmente ejecutar parking_space_detector
 
     Dentro del proyecto se encuentra 2 videos de prueba en la linea 57 de parking_space_detector se puede cambiar la ruta al video que desee probar
-    Para probar solo el rendimiento del modelo ejecutar el archivo modelo.py
+    Para probar solo el rendimiento del modelo ejecutar el archivo modelo.py el cual tambien puede cambiar el video a observar en la linea 6
